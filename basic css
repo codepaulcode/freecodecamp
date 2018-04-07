@@ -1,0 +1,140 @@
+<h2 style="color: red;">CatPhotoApp</h2>   <!-- text color using inline css -->
+
+
+<style>
+  h2 {color: blue;}
+  </style> 
+  
+  <!-- CSS element styling -->
+  
+  
+  <style>
+  .red-text {
+    color: red;
+  }
+  
+</style>
+
+<h2 class="red-text"> CatPhotoApp</h2>      <!-- Using CSS classes to style elements -->
+
+
+
+<style>
+  p {
+    font-size: 16px;
+  }
+  
+</style>    <!-- CSS setting font size -->
+
+
+
+<style>
+  p {
+    font-family: monospace;
+  }
+</style>       <!-- CSS setting font family --->
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+  
+  h2 {
+    font-family: Lobster;
+  }
+  
+</style>    
+
+<!-- using google fonts -->
+
+
+
+ h2 {
+    font-family: Lobster, monospace;
+  }
+    <!-- degrade font to second option should the first be unavailable -->
+    
+    
+    
+    .smaller-image {
+    width: 100px;
+  }     <!-- class to change element size -->
+  
+  
+  
+  .smaller-image {
+    width: 100px;
+    border-radius: 10px;
+  }  
+  <!-- change border radius with CSS -->
+  
+  
+  
+  
+  .silver-background {
+    background-color: silver;
+  }
+  <div class="silver-background">
+  </div> 
+  
+  <!-- Giving a div a silver background with CSS -->
+
+
+
+
+  #cat-photo-form{
+    background-color: green;
+  }
+  <form action="/submit-cat-photo" id="cat-photo-form"></form>
+  
+  <!-- Using element id to style with CSS -->
+  
+  
+  
+  
+  
+  
+Next...Adjust the padding of an element 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
