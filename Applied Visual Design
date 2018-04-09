@@ -304,7 +304,603 @@
 
 
 
+<style>
+  #searchbar {
+    position: absolute;
+    top: 0.5px;
+    right: 0.5px;
+    
+  }
+  
+  <!-- Lock an Element to its Parent with Absolute Positioning -->
+  
+  
+  
+  
+  
+  <style>
+  #navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+    
+    width: 100%;
+    background-color: #767676;
+  }
+  
+  <!-- Lock an Element to the Browser Window with Fixed Positioning -->
+  
+  
+  
+  
+  
+  
+<head>
+  <style>
+  #left {
+    float: left;
+   
+    
+    width: 50%;
+  }
+  #right {
+    float: right;
+    
+    width: 40%;
+  }
+  aside, section {
+    padding: 2px;
+    background-color: #ccc;
+  }
+  </style>
+</head>
 
+
+<!-- Push Elements Left or Right with the float Property -->
+
+
+
+
+
+<style>
+  div {
+    width: 60%;
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+  .first {
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    
+  }
+  .second {
+    background-color: blue;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    z-index: 1;
+  }
+</style>
+
+
+<!-- Change the Position of Overlapping Elements with the z-index Property -->
+
+
+
+
+<style>
+  div {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    
+  }
+</style>
+<div></div>
+
+
+<-- Center an Element Horizontally Using the margin Property -->
+
+
+
+
+
+<style>
+  body {
+    background-color: #FFFFFF;
+  }
+  .blue {
+    background-color: #0000ff;
+  }
+  .yellow {
+    background-color: #ffff00;
+  }
+  div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+  }
+</style>
+
+<!--Learn about Complementary Colors -->
+
+
+
+
+<style>
+  body {
+    background-color: #FFFFFF;
+  }
+  
+  .orange {
+    background-color: #ff7d00;
+  }
+  
+  .cyan {
+    background-color: #00ffff;
+  }
+  
+  .raspberry {
+    background-color: #ff007d;
+  }
+  
+  div {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+  }
+</style>
+  
+<div class="orange"></div>
+<div class="cyan"></div>
+<div class="raspberry"></div>
+
+Learn about Tertiary Colors
+
+
+
+
+<style>
+  body {
+    background-color: white;
+  }
+  header {
+    background-color: #09A7A1;
+    color: white;
+    padding: 0.25em;
+  }
+  h2 {
+    color: #09A7A1;
+  }  
+  button {
+    background-color: #FF790E;
+  }
+  footer {
+    background-color: #09A7A1;
+    color: white;
+    padding: 0.5em;
+  }
+</style>
+
+Adjust the Color of Various Elements to Complementary Colors
+
+
+
+
+
+<style>
+  body {
+    background-color: #FFFFFF;
+  }
+  
+  .green {
+    background-color: hsl(120, 100%, 50%);
+  }
+  
+  .cyan {
+    background-color: hsl(180, 100%, 50%);
+  }
+  
+  .blue {
+    background-color: hsl(240, 100%, 50%);
+  }
+  
+  div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+  }
+</style>
+
+Adjust the Hue of a Color
+
+
+
+
+<style>
+  header {
+    background-color: hsl(180, 90%, 35%);
+    color: #FFFFFF;
+  }
+  
+  nav {
+    background-color: hsl(180, 80%, 25%);
+    color: #FFFFFF;
+  
+  }
+  
+  h1 {
+    text-indent: 10px;
+    padding-top: 10px;
+  }
+  
+  nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
+
+Adjust the Tone of a Color
+
+
+
+
+
+
+<style>
+
+  div{ 
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+  }
+
+</style>
+
+<div></div>
+
+Create a Gradual CSS Linear Gradient
+
+
+
+
+
+<style>
+
+  div{ 
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px
+    );
+  }
+
+</style>
+
+<div></div>
+
+Use a CSS Linear Gradient to Create a Striped Element
+
+
+
+
+
+<style>
+  body {
+    background: url("https://i.imgur.com/MJAkxbh.png");
+  }
+</style>
+
+
+Create Texture by Adding a Subtle Pattern as a Background Image
+
+
+
+
+
+
+<style>
+  .ball { 
+    width: 40px;
+    height: 40px;
+    margin: 50 auto;
+    position: fixed;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    border-radius: 50%;
+  }
+  #ball1 {
+    left:20%;
+  }
+  #ball2 {
+    left:65%;
+    transform: scale(1.5);
+  }
+
+
+</style>
+
+Use the CSS Transform scale Property to Change the Size of an Element
+
+
+
+
+
+
+<style>
+  div { 
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+    background: linear-gradient(
+      53deg,
+      #ccfffc,
+      #ffcccf
+    );
+  }
+  
+  div:hover{
+    transform: scale(1.1);
+  }
+  
+</style>
+
+<div></div>
+
+Use the CSS Transform scale Property to Scale an Element on Hover
+
+
+
+
+<style>
+  div { 
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+  }
+  #top {
+    background-color: red;
+  }
+  #bottom {
+    background-color: blue;
+    transform: skewX(24deg);
+  }
+</style>
+
+<div id="top"></div>
+<div id="bottom"></div>
+
+Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
+
+
+
+
+<style>
+  div { 
+    width: 70%;
+    height: 100px;
+    margin: 50px auto;
+  }
+  #top {
+    background-color: red;
+    transform: skewY(-10deg);
+  }
+  #bottom {
+    background-color: blue;
+    transform: skewX(24deg);
+  }
+</style>
+
+<div id="top"></div>
+<div id="bottom"></div>
+
+Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
+
+
+
+
+
+<style>
+.center
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0px 0px blue; 
+}
+
+</style>
+<div class="center"></div>
+
+Create a Graphic Using CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
