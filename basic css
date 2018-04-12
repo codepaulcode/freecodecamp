@@ -1,0 +1,862 @@
+<h2 style="color: red;">CatPhotoApp</h2>   <!-- text color using inline css -->
+
+
+<style>
+  h2 {color: blue;}
+  </style> 
+  
+  <!-- CSS element styling -->
+  
+  
+  <style>
+  .red-text {
+    color: red;
+  }
+  
+</style>
+
+<h2 class="red-text"> CatPhotoApp</h2>      <!-- Using CSS classes to style elements -->
+
+
+
+<style>
+  p {
+    font-size: 16px;
+  }
+  
+</style>    <!-- CSS setting font size -->
+
+
+
+<style>
+  p {
+    font-family: monospace;
+  }
+</style>       <!-- CSS setting font family --->
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+  
+  h2 {
+    font-family: Lobster;
+  }
+  
+</style>    
+
+<!-- using google fonts -->
+
+
+
+ h2 {
+    font-family: Lobster, monospace;
+  }
+    <!-- degrade font to second option should the first be unavailable -->
+    
+    
+    
+    .smaller-image {
+    width: 100px;
+  }     <!-- class to change element size -->
+  
+  
+  
+  .smaller-image {
+    width: 100px;
+    border-radius: 10px;
+  }  
+  <!-- change border radius with CSS -->
+  
+  
+  
+  
+  .silver-background {
+    background-color: silver;
+  }
+  <div class="silver-background">
+  </div> 
+  
+  <!-- Giving a div a silver background with CSS -->
+
+
+
+
+  #cat-photo-form{
+    background-color: green;
+  }
+  <form action="/submit-cat-photo" id="cat-photo-form"></form>
+  
+  <!-- Using element id to style with CSS -->
+  
+  
+  
+  
+  
+  
+<!-- Next...Adjust the padding of an element  -->
+  
+   .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  
+  
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  <!-- changing margins -->
+  
+  
+  
+  
+   .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+  
+  <!-- margins can have negative values -->
+  
+  
+ .blue-box {
+    background-color: blue;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    color: #fff;
+  }
+  
+  <!-- padding can be controlled on each side -->
+  
+  
+  
+   .blue-box {
+    background-color: blue;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    
+  }
+  
+  <!-- margins can also be controlled on each side -->
+  
+  
+  
+  
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px 40px 20px 40px;
+  }
+  
+  <!-- using clockwise notation to control each sides padding -->
+  
+  
+  
+   .blue-box {
+    background-color: blue;
+    color: #fff;
+    margin: 40px 20px 20px 40px; 
+  }
+  
+  <!-- Also use clockwise notation for margins -->
+  
+  
+  
+  
+  [type='checkbox'] {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  <!-- Use Attribute Selectors to Style Elements -->
+  
+  
+  
+    .red-box {
+    background-color: red;
+    margin: 20px 40px 20px 40px;
+    padding: 1.5em;
+    
+  }
+  
+  
+  <!-- In CSS sizes can be defined in other ways For example, em is based on the size of an element's font. -->
+  
+  
+  
+  
+<style>
+  
+  body {
+    background-color: black;
+  }
+
+</style>
+
+<!-- every html page has a body element -->
+
+
+
+
+
+<style>
+  
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+
+<h1> Hello World </h1>
+
+<!-- Inherit Styles from the Body Element -->
+
+
+
+
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  
+  
+  .pink-text {
+    color: pink;
+  }
+  
+  
+</style>
+<h1 class="pink-text">Hello World!</h1>
+
+<!-- Prioritize One Style Over Another -->
+
+
+
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  
+  .blue-text{
+    color: blue;
+  }
+  
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
+
+
+<!-- Override Styles in Subsequent CSS -->
+
+
+
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  
+  #orange-text{
+    color: orange;
+  }
+  
+</style>
+
+
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+<!-- Override Class Declarations by Styling ID Attributes -->
+
+
+
+
+
+
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 style="color: white;" id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+
+<!-- Override Class Declarations with Inline Styles -->
+
+
+
+
+
+style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
+
+<-- Override All Other Styles by using Important -->
+
+
+
+
+
+
+style>
+  body {
+    background-color: #000000;
+  }
+</style>
+
+
+<!-- Use Hex Code for Specific Colors -->
+
+
+
+
+style>
+  .red-text {
+    color: FF0000;
+  }
+  .green-text {
+    color: 00FF00;
+  }
+  .dodger-blue-text {
+    color: #1E90FF;
+  }
+  .orange-text {
+    color: #FFA500;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<h1 class="dodger-blue-text">I am dodger blue!</h1>
+
+<h1 class="orange-text">I am orange!</h1>
+
+
+<!-- Use Hex Code to Mix Colors -->
+
+
+
+
+
+<style>
+  .red-text {
+    color: #f00;
+  }
+  .fuchsia-text {
+    color: #f0f;
+  }
+  .cyan-text {
+    color: #0ff;
+  }
+  .green-text {
+    color: #0f0;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="fuchsia-text">I am fuchsia!</h1>
+
+<h1 class="cyan-text">I am cyan!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<!-- Abbreviated Hex Code -->
+
+
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
+
+<!-- Use RGB values to Color Elements -->
+
+
+
+
+<style>
+  .red-text {
+    color: rgb(255, 0, 0);
+  }
+  .orchid-text {
+    color: rgb(218, 112, 214);
+  }
+  .sienna-text {
+    color: rgb(160, 82, 45);
+  }
+  .blue-text {
+    color: rgb(0, 0, 255);
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="orchid-text">I am orchid!</h1>
+
+<h1 class="sienna-text">I am sienna!</h1>
+
+<h1 class="blue-text">I am blue!</h1>
+
+<!--  Use RGB to Mix Colors -->
+
+
+
+
+
+<style>
+  .penguin {
+    
+    /* change code below */
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+    /* change code above */
+    
+    <!-- Use CSS Variables to change several elements at once -->
+    
+    
+    
+    
+    
+<style>
+  .penguin {
+    
+    /* add code below */
+    --penguin-skin: gray;
+    /* add code above */
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+  
+  <!--  Create a custom CSS Variable -->
+  
+  
+  
+  
+  
+  
+  
+  
+  <style>
+  .penguin {
+    --penguin-skin: gray;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+    
+    /* change code below */
+    background: var(--penguin-skin);
+    /* change code above */
+    
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+  
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    
+    /* change code below */
+    background: var(--penguin-skin);
+    /* change code above */
+    
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+  
+  .right-hand {
+    top: 0%;
+    left: -5%;
+    
+    /* change code below */
+    background: var(--penguin-skin);
+    /* change code above */
+    
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 120% 30%;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+  
+  .left-hand {
+    top: 0%;
+    left: 75%;
+    
+    /* change code below */
+    background: var(--penguin-skin);
+    /* change code above */
+    
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 30% 120%;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+  
+  
+  <!-- Use a custom CSS Variable -->
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    .penguin-top {
+    top: 10%;
+    left: 25%;
+  
+    /* change code below */
+    background: var(--pengiun-skin, black);
+    /* change code above */
+  
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+  
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+  
+    /* change code below */
+    background: var(--pengiun-skin, black);
+    /* change code above */
+  
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+  
+  
+  <!--  Attach a Fallback value to a CSS Variable -->
+  
+  
+  
+  
+  
+  
+  
+  style>
+  :root {
+    
+    /* add code below */
+    --penguin-belly: pink;
+    /* add code above */
+  }
+  
+  
+  <!--Cascading CSS variables -->
+  
+  
+  
+  
+  .penguin {
+    
+    /* add code below */
+    --penguin-belly: white;
+    /* add code above */
+    
+    <!-- Change a variable for a specific area -->
+    
+    
+    
+    
+    @media (max-width: 350px) {
+    :root {
+      
+      /* add code below */
+      --penguin-size: 200px;
+      --penguin-skin: black;
+      /* add code above */
+      
+    }
+  }
+  
+  <!-- Use a media query to change a variable -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
